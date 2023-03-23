@@ -1,9 +1,3 @@
-/*
- * File: monty_funcs_3.c
- * Auth: Thomas Oselu 
- *       Mohamed Maalim
- */
-
 #include "monty.h"
 
 void monty_nop(stack_t **stack, unsigned int line_number);

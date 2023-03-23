@@ -1,9 +1,3 @@
-/*
- * File: monty_main.c
- * Auth: Thomas Oselu
- *       Mohamed Maalim
- */
-
 #include "monty.h"
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -33,4 +27,3 @@ int main(int argc, char **argv)
 	fclose(script_fd);
 	return (exit_code);
 }
-

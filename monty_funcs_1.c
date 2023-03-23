@@ -1,9 +1,3 @@
-/*
- * File: monty_funcs_1.c
- * Auth: Thomas Oselu
- *       Mohamed Maalim
- */
-
 #include "monty.h"
 
 void monty_push(stack_t **stack, unsigned int line_number);
@@ -147,4 +141,3 @@ void monty_swap(stack_t **stack, unsigned int line_number)
 	tmp->prev = *stack;
 	(*stack)->next = tmp;
 }
-

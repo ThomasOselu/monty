@@ -1,9 +1,3 @@
-/*
- * File: monty_funcs_4.c
- * Auth: Mohamed Maalim
- *       Thomas Oselu
- */
-
 #include "monty.h"
 
 void monty_rotl(stack_t **stack, unsigned int line_number);
